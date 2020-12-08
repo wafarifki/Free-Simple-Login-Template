@@ -1,9 +1,9 @@
-# Simple-Login-Template
+# Free-Simple-Login-Template
 Kali ini saya mencoba membuat Simple Login Template Menggunakan Bootstrap 4.
 Gunakan template ini untuk belajar...
 Mohon maaf jika ada kesalahan / apapun itu.karna saya juga masih belajar.
 <br>
-<a target="_blank" href="https://wafarifki.github.io/Simple-Login-Template">Klik disini untuk melihat demo</a>
+<a target="_blank" href="https://wafarifki.github.io/Free-Simple-Login-Template">Klik disini untuk melihat demo</a>
 <br>
 
 <b> ScreenShoot Versi Desktop </b>
