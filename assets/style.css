@@ -1,0 +1,372 @@
+* {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: #7579e7;
+}
+
+a {
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+#konten {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #7579e7;
+    padding: 30px;
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+    box-shadow: 20px 20px 60px #6367c4, -20px -20px 60px #878bff;
+    text-align: center;
+}
+
+#lupapw {
+    background-color: #7579e7;
+    border-top: 1px solid #7579e7;
+    padding-left: 7.5%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+#loginsumbit {
+    background-color: #7579e7;
+    border-top: 1px solid #7579e7;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+#divlogo {
+    background-color: #7579e7;
+    border-top: 1px solid #7579e7;
+    padding-left: 7.5%;
+    text-align: left;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    #konten {
+        padding: 0;
+        width: 100%;
+    }
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+    }
+    a {
+        font-size: 13px;
+        color: #ffffff;
+        display: inline-block;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background: #7579e7;
+    box-shadow: 5px 5px 10px #6367c4, -5px -5px 10px #878bff;
+    -webkit-box-shadow: 5px 5px 10px #6367c4, -5px -5px 10px #878bff;
+    border: none;
+    color: white;
+    z-index: 10;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px;
+    width: 85%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background: linear-gradient(145deg, #696dd0, #7d81f7);
+    box-shadow: 5px 5px 10px #6367c4, -5px -5px 10px #878bff;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+}
+
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+input[type=text] {
+    z-index: 22;
+    background-color: #f6f6f6;
+    border: none;
+    color: #404040;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #ffffff;
+}
+
+input[type=text]:placeholder {
+    color: #404040;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.animasianimasidown {
+    -webkit-animation-name: animasianimasidown;
+    animation-name: animasianimasidown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes animasianimasidown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes animasianimasidown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@-webkit-keyframes animasi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes animasi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes animasi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animasi {
+    opacity: 0;
+    -webkit-animation: animasi ease-in 1;
+    -moz-animation: animasi ease-in 1;
+    animation: animasi ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.animasi.animasipertama {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.animasi.animasikedua {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.animasi.animasiketiga {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.animasi.animasikeempat {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlineHover:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.underlineHover:hover:after {
+    width: 100%;
+}
+
+*:focus {
+    outline: none;
+}
+
+#logo {
+    width: 60%;
+}
+
+#pesbuk {
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 6px;
+    margin-right: 8px;
+    color: #6367c4;
+    font-size: 40px;
+}
+
+#gugle {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 8px;
+    background: #fff;
+    padding: 6px;
+    border-radius: 10px;
+    color: #6367c4;
+    font-size: 40px;
+}
+
+#pesbuk:hover {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #6367c4;
+    padding: 6px;
+    margin-right: 8px;
+    color: #fff;
+    font-size: 40px;
+}
+
+#gugle:hover {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background: #6367c4;
+    padding: 6px;
+    color: #fff;
+    font-size: 40px;
+}
